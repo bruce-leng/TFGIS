@@ -1,0 +1,60 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Canvas - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP15A.tmp" with contents
+[
+lib\CxImage.lib TilCore.lib MathPro.lib /nologo /stack:0x989680 /subsystem:windows /dll /incremental:yes /pdb:"../lib/Canvas.pdb" /debug /machine:I386 /def:".\Canvas.def" /out:"../bin/Canvas.dll" /implib:"../lib/Canvas.lib" /pdbtype:sept /libpath:"..\lib" 
+".\Debug\Canvas.obj"
+".\Debug\DlgSpecialChar.obj"
+".\Debug\DLineDlg1.obj"
+".\Debug\DLineDlg2.obj"
+".\Debug\DLineProperty.obj"
+".\Debug\EdgeFind.obj"
+".\Debug\Ellipse.obj"
+".\Debug\EllipseArc.obj"
+".\Debug\FaceCaption.obj"
+".\Debug\Graph.obj"
+".\Debug\Image.obj"
+".\Debug\IntelScissor.obj"
+".\Debug\Line.obj"
+".\Debug\MultiSeg.obj"
+".\Debug\ObjEdgeList.obj"
+".\Debug\ObjRunLenCode.obj"
+".\Debug\Polygon.obj"
+".\Debug\Round.obj"
+".\Debug\RoundArc.obj"
+".\Debug\SegApi.obj"
+".\Debug\StdAfx.obj"
+".\Debug\Text.obj"
+".\Debug\TextEdit.obj"
+".\Debug\TilCanvas.obj"
+".\Debug\TilCanvasMgr.obj"
+".\Debug\TilGraph.obj"
+".\Debug\TilImage.obj"
+".\Debug\TilTunArc.obj"
+".\Debug\Unit.obj"
+".\Debug\Veins.obj"
+".\Debug\Canvas.res"
+".\Debug\Progress.obj"
+".\Debug\TextProgressCtrl.obj"
+".\lib\cximage.lib"
+"\Projects\掌子面处理\系统代码\AllPrj\lib\TilCore.lib"
+"\Projects\掌子面处理\系统代码\AllPrj\lib\MathPro.lib"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP15A.tmp"
+<h3>Output Window</h3>
+Linking...
+   Creating library ../lib/Canvas.lib and object ../lib/Canvas.exp
+
+
+
+<h3>Results</h3>
+Canvas.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

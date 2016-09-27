@@ -1,0 +1,93 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: GuiExt - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/GuiExt.res" /d "_DEBUG" /d "_AFXDLL" "E:\Research\掌子面处理\AllPrj\GuiExt\GuiExt.rc"" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPF4E0.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "../header" /I "../TilCore" /I "../GuiLib" /I "../Canvas" /I "../Canvas/CxImage" /I "../MathPro" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Debug/GuiExt.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\Research\掌子面处理\AllPrj\GuiExt\BPnetwork.cpp"
+"E:\Research\掌子面处理\AllPrj\GuiExt\CanvasHistogram.cpp"
+"E:\Research\掌子面处理\AllPrj\GuiExt\CanvasSection.cpp"
+"E:\Research\掌子面处理\AllPrj\GuiExt\ComboListCtrl.cpp"
+"E:\Research\掌子面处理\AllPrj\GuiExt\GuiExt.cpp"
+"E:\Research\掌子面处理\AllPrj\GuiExt\GuiToolBarEx.cpp"
+"E:\Research\掌子面处理\AllPrj\GuiExt\InPlaceCombo.cpp"
+"E:\Research\掌子面处理\AllPrj\GuiExt\InPlaceEdit.cpp"
+"E:\Research\掌子面处理\AllPrj\GuiExt\LogEdit.cpp"
+"E:\Research\掌子面处理\AllPrj\GuiExt\PreviewList.cpp"
+"E:\Research\掌子面处理\AllPrj\GuiExt\ruler.cpp"
+"E:\Research\掌子面处理\AllPrj\GuiExt\Splash.cpp"
+"E:\Research\掌子面处理\AllPrj\GuiExt\StaticCanvas.cpp"
+"E:\Research\掌子面处理\AllPrj\GuiExt\UndoTree.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPF4E0.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPF4E1.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "../header" /I "../TilCore" /I "../GuiLib" /I "../Canvas" /I "../Canvas/CxImage" /I "../MathPro" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Debug/GuiExt.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\Research\掌子面处理\AllPrj\GuiExt\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPF4E1.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPF4E2.tmp" with contents
+[
+GuiLibd114.lib Canvas.lib ..\Canvas\lib\cxImage.lib MathPro.lib /nologo /subsystem:windows /dll /incremental:yes /pdb:"../lib/GuiExt.pdb" /debug /machine:I386 /def:".\GuiExt.def" /out:"..\bin/GuiExt.dll" /implib:"../lib/GuiExt.lib" /pdbtype:sept /libpath:"../lib" 
+".\Debug\BPnetwork.obj"
+".\Debug\CanvasHistogram.obj"
+".\Debug\CanvasSection.obj"
+".\Debug\ComboListCtrl.obj"
+".\Debug\GuiExt.obj"
+".\Debug\GuiToolBarEx.obj"
+".\Debug\InPlaceCombo.obj"
+".\Debug\InPlaceEdit.obj"
+".\Debug\LogEdit.obj"
+".\Debug\PreviewList.obj"
+".\Debug\ruler.obj"
+".\Debug\Splash.obj"
+".\Debug\StaticCanvas.obj"
+".\Debug\StdAfx.obj"
+".\Debug\UndoTree.obj"
+".\Debug\GuiExt.res"
+"\Research\掌子面处理\AllPrj\lib\TilCore.lib"
+"\Research\掌子面处理\AllPrj\lib\GuiLibd114.lib"
+"\Research\掌子面处理\AllPrj\lib\Canvas.lib"
+"\Research\掌子面处理\AllPrj\lib\MathPro.lib"
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPF4E2.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+BPnetwork.cpp
+CanvasHistogram.cpp
+E:\Research\掌子面处理\AllPrj\GuiExt\CanvasHistogram.cpp(169) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\Research\掌子面处理\AllPrj\GuiExt\CanvasHistogram.cpp(177) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\Research\掌子面处理\AllPrj\GuiExt\CanvasHistogram.cpp(184) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+E:\Research\掌子面处理\AllPrj\GuiExt\CanvasHistogram.cpp(168) : warning C4101: 'yratio' : unreferenced local variable
+CanvasSection.cpp
+ComboListCtrl.cpp
+GuiExt.cpp
+GuiToolBarEx.cpp
+InPlaceCombo.cpp
+InPlaceEdit.cpp
+LogEdit.cpp
+PreviewList.cpp
+e:\research\掌子面处理\allprj\header\guiframewnd.h(30) : fatal error C1083: Cannot open include file: 'AFXIMPL.H': No such file or directory
+ruler.cpp
+Splash.cpp
+StaticCanvas.cpp
+UndoTree.cpp
+Generating Code...
+执行 cl.exe 时出错.
+
+
+
+<h3>Results</h3>
+GuiExt.dll - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

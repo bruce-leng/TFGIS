@@ -1,0 +1,34 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: TilCore - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1A.tmp" with contents
+[
+/nologo /subsystem:windows /dll /incremental:yes /pdb:"../lib/TilCore.pdb" /debug /machine:I386 /def:".\TilCore.def" /out:"..\bin/TilCore.dll" /implib:"../lib/TilCore.lib" /pdbtype:sept 
+".\Debug\CleanR.obj"
+".\Debug\MemProc.obj"
+".\Debug\StdAfx.obj"
+".\Debug\TilComFunction.obj"
+".\Debug\TilCore.obj"
+".\Debug\TILdef.obj"
+".\Debug\TilError.obj"
+".\Debug\TilPoint.obj"
+".\Debug\TilCore.res"
+".\Debug\Memmap.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1A.tmp"
+<h3>Output Window</h3>
+Linking...
+   Creating library ../lib/TilCore.lib and object ../lib/TilCore.exp
+
+
+
+<h3>Results</h3>
+TilCore.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

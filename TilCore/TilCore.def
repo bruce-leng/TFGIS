@@ -1,0 +1,7 @@
+; TilCore.def : Declares the module parameters for the DLL.
+
+LIBRARY      "TilCore"
+DESCRIPTION  'TilCore Windows Dynamic Link Library'
+
+EXPORTS
+    ; Explicit exports can go here

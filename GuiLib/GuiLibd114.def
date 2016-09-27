@@ -1,0 +1,7 @@
+; GuiLibd114.def : Declares the module parameters for the DLL.
+
+LIBRARY      "GuiLibd114"
+DESCRIPTION  'GuiLibd114 Windows Dynamic Link Library'
+
+EXPORTS
+    ; Explicit exports can go here

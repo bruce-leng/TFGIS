@@ -1,0 +1,429 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\Canvas.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "Canvas DLL\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "Canvas\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2007\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "Canvas.DLL\0"
+            VALUE "ProductName", "Canvas Dynamic Link Library\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_PROPPAGE_DLine2 DIALOGEX 0, 0, 204, 126
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "颜色设定"
+FONT 8, "宋体", 0, 0, 0x1
+BEGIN
+    CONTROL         137,IDC_STATIC_Black,"Static",SS_BITMAP | SS_NOTIFY | 
+                    SS_CENTERIMAGE | SS_SUNKEN | WS_BORDER,3,3,15,14,
+                    WS_EX_CLIENTEDGE | WS_EX_STATICEDGE
+    CONTROL         141,IDC_STATIC_RarkRed,"Static",SS_BITMAP | SS_NOTIFY | 
+                    SS_CENTERIMAGE | SS_SUNKEN | WS_BORDER,3,60,15,14,
+                    WS_EX_CLIENTEDGE | WS_EX_STATICEDGE
+    CONTROL         145,IDC_STATIC_DrakGreen,"Static",SS_BITMAP | SS_NOTIFY | 
+                    SS_CENTERIMAGE | SS_SUNKEN | WS_BORDER,25,41,15,14,
+                    WS_EX_CLIENTEDGE | WS_EX_STATICEDGE
+    CONTROL         143,IDC_STATIC_DarkYellow,"Static",SS_BITMAP | SS_NOTIFY | 
+                    SS_CENTERIMAGE | SS_SUNKEN | WS_BORDER,45,41,15,14,
+                    WS_EX_CLIENTEDGE | WS_EX_STATICEDGE
+    CONTROL         149,IDC_STATIC_DrakBlue,"Static",SS_BITMAP | SS_NOTIFY | 
+                    SS_CENTERIMAGE | SS_SUNKEN | WS_BORDER,3,22,15,14,
+                    WS_EX_CLIENTEDGE | WS_EX_STATICEDGE
+    CONTROL         144,IDC_STATIC_Yellow,"Static",SS_BITMAP | SS_NOTIFY | 
+                    SS_CENTERIMAGE | SS_SUNKEN | WS_BORDER,65,41,15,14,
+                    WS_EX_CLIENTEDGE | WS_EX_STATICEDGE
+    CONTROL         139,IDC_STATIC_DarkGray,"Static",SS_BITMAP | SS_NOTIFY | 
+                    SS_CENTERIMAGE | SS_SUNKEN | WS_BORDER,25,3,15,14,
+                    WS_EX_CLIENTEDGE | WS_EX_STATICEDGE
+    CONTROL         140,IDC_STATIC_LightRray,"Static",SS_BITMAP | SS_NOTIFY | 
+                    SS_CENTERIMAGE | SS_SUNKEN | WS_BORDER,45,3,15,14,
+                    WS_EX_CLIENTEDGE | WS_EX_STATICEDGE
+    CONTROL         138,IDC_STATIC_White,"Static",SS_BITMAP | SS_NOTIFY | 
+                    SS_CENTERIMAGE | SS_SUNKEN | WS_BORDER,65,3,15,14,
+                    WS_EX_CLIENTEDGE | WS_EX_STATICEDGE
+    CONTROL         142,IDC_STATIC_Red,"Static",SS_BITMAP | SS_NOTIFY | 
+                    SS_CENTERIMAGE | SS_SUNKEN | WS_BORDER,65,60,15,14,
+                    WS_EX_CLIENTEDGE | WS_EX_STATICEDGE
+    CONTROL         150,IDC_STATIC_Blue,"Static",SS_BITMAP | SS_NOTIFY | 
+                    SS_CENTERIMAGE | SS_SUNKEN | WS_BORDER,25,22,15,14,
+                    WS_EX_CLIENTEDGE | WS_EX_STATICEDGE
+    CONTROL         147,IDC_STATIC_BITMAP5,"Static",SS_BITMAP | SS_NOTIFY | 
+                    SS_CENTERIMAGE | SS_SUNKEN | WS_BORDER,3,41,15,14,
+                    WS_EX_CLIENTEDGE | WS_EX_STATICEDGE
+    CONTROL         146,IDC_STATIC_Green,"Static",SS_BITMAP | SS_NOTIFY | 
+                    SS_CENTERIMAGE | SS_SUNKEN | WS_BORDER,45,22,15,14,
+                    WS_EX_CLIENTEDGE | WS_EX_STATICEDGE
+    CONTROL         148,IDC_STATIC_BITMAP6,"Static",SS_BITMAP | SS_NOTIFY | 
+                    SS_CENTERIMAGE | SS_SUNKEN | WS_BORDER,65,22,15,14,
+                    WS_EX_CLIENTEDGE | WS_EX_STATICEDGE
+    CONTROL         151,IDC_STATIC_BITMAP9,"Static",SS_BITMAP | SS_NOTIFY | 
+                    SS_CENTERIMAGE | SS_SUNKEN | WS_BORDER,25,60,15,14,
+                    WS_EX_CLIENTEDGE | WS_EX_STATICEDGE
+    CONTROL         152,IDC_STATIC_BITMAP10,"Static",SS_BITMAP | SS_NOTIFY | 
+                    SS_CENTERIMAGE | SS_SUNKEN | WS_BORDER,45,60,15,14,
+                    WS_EX_CLIENTEDGE | WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT_Red,177,14,18,13,ES_AUTOHSCROLL | ES_READONLY
+    CONTROL         142,IDC_STATIC_Red2,"Static",SS_BITMAP | SS_NOTIFY | 
+                    SS_CENTERIMAGE | SS_SUNKEN | WS_BORDER,90,14,9,8,
+                    WS_EX_CLIENTEDGE | WS_EX_STATICEDGE
+    CONTROL         146,IDC_STATIC_Green2,"Static",SS_BITMAP | SS_NOTIFY | 
+                    SS_CENTERIMAGE | SS_SUNKEN | WS_BORDER,90,33,9,8,
+                    WS_EX_CLIENTEDGE | WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT_Green,177,32,18,13,ES_AUTOHSCROLL | ES_READONLY
+    CONTROL         150,IDC_STATIC_Blue2,"Static",SS_BITMAP | SS_NOTIFY | 
+                    SS_CENTERIMAGE | SS_SUNKEN | WS_BORDER,90,54,9,8,
+                    WS_EX_CLIENTEDGE | WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT_Blue,177,53,19,12,ES_AUTOHSCROLL | ES_READONLY,
+                    WS_EX_ACCEPTFILES
+    CONTROL         "Spin1",IDC_SPIN_Red,"msctls_updown32",UDS_ARROWKEYS | 
+                    NOT WS_VISIBLE,196,10,8,14
+    CONTROL         "Spin2",IDC_SPIN_Green,"msctls_updown32",UDS_ARROWKEYS | 
+                    NOT WS_VISIBLE,195,30,8,14
+    CONTROL         "Spin3",IDC_SPIN_Blue,"msctls_updown32",UDS_ARROWKEYS | 
+                    NOT WS_VISIBLE,194,55,8,14
+    CONTROL         "Slider1",IDC_SLIDER_Red,"msctls_trackbar32",
+                    TBS_AUTOTICKS | TBS_TOP | WS_TABSTOP,96,13,80,16
+    CONTROL         "Slider2",IDC_SLIDER_Green,"msctls_trackbar32",
+                    TBS_AUTOTICKS | TBS_TOP | WS_TABSTOP,96,30,80,16
+    CONTROL         "Slider3",IDC_SLIDER_Blue,"msctls_trackbar32",
+                    TBS_AUTOTICKS | TBS_TOP | WS_TABSTOP,96,51,80,16
+    CONTROL         "",IDC_STATIC_ShowColor,"Static",SS_GRAYFRAME | 
+                    SS_SUNKEN | WS_BORDER,3,76,77,27,WS_EX_CLIENTEDGE | 
+                    WS_EX_STATICEDGE
+    GROUPBOX        "RGB",IDC_STATIC,87,0,110,73
+    PUSHBUTTON      "拾取",IDC_BUTTON_Select,91,79,36,19,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "调色板",IDC_BUTTON_ColorDlg,145,79,36,19,0,
+                    WS_EX_STATICEDGE
+    CONTROL         "画笔",IDC_CHECK_Pen,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,6,111,29,12
+    CONTROL         "画刷",IDC_CHECK_Brush,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,75,111,27,10
+    CONTROL         "背景",IDC_CHECK_Background,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,144,111,29,10
+    CONTROL         "",IDC_ShowPenColor,"Static",SS_BLACKFRAME | SS_SUNKEN | 
+                    WS_BORDER,40,104,20,19,WS_EX_CLIENTEDGE | 
+                    WS_EX_STATICEDGE
+    CONTROL         "",IDC_ShowBrushColor,"Static",SS_BLACKFRAME | SS_SUNKEN | 
+                    WS_BORDER,109,103,20,20,WS_EX_CLIENTEDGE | 
+                    WS_EX_STATICEDGE
+    CONTROL         "",IDC_ShowBackground,"Static",SS_BLACKFRAME | SS_SUNKEN | 
+                    WS_BORDER,180,104,20,20,WS_EX_CLIENTEDGE | 
+                    WS_EX_STATICEDGE
+END
+
+IDD_PROPPAGE_DLine1 DIALOGEX 0, 0, 202, 128
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "风格设定"
+FONT 8, "宋体", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "画笔",IDC_STATIC,3,0,70,102
+    CONTROL         "SOLID   ",IDC_RADIO_Ps_Solid,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,6,11,45,14
+    CONTROL         "DASH",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,6,25,32,10
+    CONTROL         "DOT",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON,6,35,28,10
+    CONTROL         "DASHDOT",IDC_RADIO4,"Button",BS_AUTORADIOBUTTON,6,45,44,
+                    10
+    CONTROL         "DASHDOTDOT",IDC_RADIO5,"Button",BS_AUTORADIOBUTTON,6,55,
+                    62,8
+    CONTROL         "NULL",IDC_RADIO15,"Button",BS_AUTORADIOBUTTON,6,63,32,
+                    10
+    CONTROL         "INSIDEFRAME   ",IDC_RADIO16,"Button",BS_AUTORADIOBUTTON,
+                    6,73,61,10
+    CONTROL         "",IDC_STATIC_ShowPenStyle,"Static",SS_BLACKFRAME,6,85,
+                    64,12
+    GROUPBOX        "笔宽",IDC_STATIC,11,103,53,24
+    EDITTEXT        IDC_EDIT_LineWidth,15,113,47,12,ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_SPIN_DDLineWidth,"msctls_updown32",
+                    UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | 
+                    UDS_ARROWKEYS,54,115,11,13
+    GROUPBOX        "画刷",IDC_STATIC,76,0,120,102
+    CONTROL         "HOLLOW",IDC_RADIO6_bs_hollow,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,80,13,52,8
+    CONTROL         "SOLID",IDC_RADIO7_bs_solid,"Button",BS_AUTORADIOBUTTON,
+                    138,12,48,8
+    CONTROL         "HATCHED",IDC_RADIO8_hatched,"Button",BS_AUTORADIOBUTTON,
+                    80,22,56,8
+    GROUPBOX        "填充阴影",IDC_STATIC,80,31,65,65
+    CONTROL         "BDIAGONAL",IDC_RADIO9_HS_BDIAGONAL,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,81,42,58,8
+    CONTROL         "DIAGCROSS",IDC_RADIO11_HS_DIAGCROSS,"Button",
+                    BS_AUTORADIOBUTTON,81,52,57,8
+    CONTROL         "FDIAGONAL",IDC_RADIO13_HS_FDIAGONAL,"Button",
+                    BS_AUTORADIOBUTTON,81,61,58,8
+    CONTROL         "CROSS",IDC_RADIO10_HS_CROSS,"Button",BS_AUTORADIOBUTTON,
+                    81,69,43,8
+    CONTROL         "HORIZONTAL",IDC_RADIO14_HS_HORIZONTAL,"Button",
+                    BS_AUTORADIOBUTTON,81,77,61,8
+    CONTROL         "VERTICAL",IDC_RADIO_HS_VERTICAL,"Button",
+                    BS_AUTORADIOBUTTON,81,86,53,8
+    CONTROL         "",IDC_STATIC_ShowBrushResult,"Static",SS_BLACKFRAME,147,
+                    35,45,60
+    COMBOBOX        IDC_COMBO_BackgroundMode,98,113,79,37,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "背景模式",IDC_STATIC,93,103,85,25
+END
+
+IDD_DLG_SPECIALCHAR DIALOG DISCARDABLE  0, 0, 266, 170
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "插入特殊符号"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "插入",ID_INSERT,201,20,50,14
+    PUSHBUTTON      "取消",IDCANCEL,201,41,50,14
+    CONTROL         "Tab1",IDC_TAB1,"SysTabControl32",TCS_MULTILINE,7,7,176,
+                    149
+END
+
+IDD_DIALOG_PROGRESS DIALOG DISCARDABLE  0, 0, 224, 24
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "岩层边界提取..."
+FONT 10, "System"
+BEGIN
+    CONTROL         "Progress1",IDC_PROGRESS1,"msctls_progress32",PBS_SMOOTH | 
+                    WS_BORDER,7,7,210,10
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_PROPPAGE_DLine1 DLGINIT
+BEGIN
+    IDC_COMBO_BackgroundMode, 0x403, 7, 0
+0xbbb2, 0xb8cd, 0xf7c3, "\000" 
+    IDC_COMBO_BackgroundMode, 0x403, 5, 0
+0xb8cd, 0xf7c3, "\000" 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_PROPPAGE_DLine2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 197
+        VERTGUIDE, 7
+        VERTGUIDE, 28
+        VERTGUIDE, 47
+        VERTGUIDE, 67
+        VERTGUIDE, 88
+        BOTTOMMARGIN, 119
+        HORZGUIDE, 26
+        HORZGUIDE, 46
+        HORZGUIDE, 66
+    END
+
+    IDD_PROPPAGE_DLine1, DIALOG
+    BEGIN
+        LEFTMARGIN, 1
+        RIGHTMARGIN, 195
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 121
+    END
+
+    IDD_DLG_SPECIALCHAR, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 259
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 163
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP_Yellow       BITMAP  DISCARDABLE     "res\\bitmap2.bmp"
+IDB_BITMAP_White        BITMAP  DISCARDABLE     "res\\bmp00005.bmp"
+IDB_BITMAP_Start        BITMAP  DISCARDABLE     "res\\Start.bmp"
+IDB_BITMAP_Red          BITMAP  DISCARDABLE     "res\\bmp00008.bmp"
+IDB_BITMAP_Light_Gray   BITMAP  DISCARDABLE     "res\\bmp00006.bmp"
+IDB_BITMAP_Green        BITMAP  DISCARDABLE     "res\\bitmap4.bmp"
+IDB_BITMAP_DarkYellow   BITMAP  DISCARDABLE     "res\\bmp00009.bmp"
+IDB_BITMAP_DarkGreen    BITMAP  DISCARDABLE     "res\\bitmap3.bmp"
+IDB_BITMAP_DarkBlue     BITMAP  DISCARDABLE     "res\\bitmap7.bmp"
+IDB_BITMAP_Dark_Red     BITMAP  DISCARDABLE     "res\\bmp00007.bmp"
+IDB_BITMAP_Dark_Gray    BITMAP  DISCARDABLE     "res\\bitmap_d.bmp"
+IDB_BITMAP_Blue         BITMAP  DISCARDABLE     "res\\bitmap8.bmp"
+IDB_BITMAP_Black        BITMAP  DISCARDABLE     "res\\bmp00004.bmp"
+IDB_BITMAP9             BITMAP  DISCARDABLE     "res\\bitmap9.bmp"
+IDB_BITMAP6             BITMAP  DISCARDABLE     "res\\bitmap6.bmp"
+IDB_BITMAP5             BITMAP  DISCARDABLE     "res\\bitmap5.bmp"
+IDB_BITMAP10            BITMAP  DISCARDABLE     "res\\bitmap10.bmp"
+IDB_BITMAP1             BITMAP  DISCARDABLE     "res\\bmp00010.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU_TEXTEDIT MENU DISCARDABLE 
+BEGIN
+    POPUP "TextEdit"
+    BEGIN
+        MENUITEM "撤消(&U)",                    ID_UnDo_Text
+        MENUITEM SEPARATOR
+        MENUITEM "剪切(&T)",                    ID_Cut
+        MENUITEM "复制(&C)",                    ID_Copy
+        MENUITEM "粘贴(&P)",                    ID_Past
+        MENUITEM "删除(&D)",                    ID_Delete
+        MENUITEM SEPARATOR
+        MENUITEM "插入特殊字符",                ID_INSERT_SPECIALCHAR
+        MENUITEM "全选(&A)",                    ID_SelectAll
+        MENUITEM SEPARATOR
+        MENUITEM "移动编辑框(&M)",              ID_Move
+        MENUITEM "设置编辑框大小(&S)",          ID_MENUITEM_Size
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INSERT_SPECIALCHAR   "\\插入特殊字符"
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\Canvas.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

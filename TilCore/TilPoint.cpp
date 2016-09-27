@@ -1,0 +1,6 @@
+// TilPoint.cpp: implementation of the TilPoint class.
+//
+//////////////////////////////////////////////////////////////////////
+
+#include "stdafx.h"
+#include "TilPoint.h"
